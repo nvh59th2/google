@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+}
+
+header {
+  height: 50px;
+  position: relative;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  padding-bottom: 18px;
+}
+
+header div {
+  position: absolute;
+  right: 0;
+}
+
+
+main .g1{
+  text-align: center;
+}
+
+body {
+  font-family: arial;
+}
+
+main button {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+main a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+main input {
+  width: 584px; 
+  height: 46px; 
+  border-radius: 24px; 
+  margin-bottom: 20px;
+  border: 1px solid #dfe1e5;
+}
+
+main input:focus {
+  outline: none;
+}
+
+footer {
+  height: 80px;
+  background-color: rgb(242, 242, 242);
+}
+
+main {
+  height: 502px;
+  position: relative;
+}
+
+footer {
+  height: 85px;
+}
+
+footer ul li a {
+  text-decoration: none; 
+}
+
+footer ul li {
+  list-style: none;
+  display: inline;
+  /* margin: 5px; */
+}
+
+footer ul li a {
+  color: black;
+}
+
+footer .x {
+  display: flex;
+  position: relative;
+}
+
+footer .right{
+ position: absolute;
+ right: 0;
+}
+
+main .gg {
+  position: relative;
+}
+
+main {
+  position: relative;
+}
+
+main .anh {
+  position: absolute;
+  right: 0px;
+}
+
+main .gg {
+  position: relative;
+}
+
+/* main .fa-search {
+  left: 400px;
+  top: ;
+  position: absolute;
+} */
