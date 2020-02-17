@@ -8,15 +8,18 @@
   <link rel="shortcut icon" href="img/kisspng-google-logo-g-suite-google-5ab6f1f10f4d49.7230064015219389290627.png">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   <script src="jquery-3.4.1.min.js"></script>
 </head>
 <body>
   <header>
     <div>
-      <a href="">Gmail</a>
-      <a href="" id="hinhanh">Hình ảnh</a>
-      <a href=""><img src="img/Capture.JPG" alt=""></a>
-      <a href=""><img src="img/Capture1.JPG" alt=""></a>
+      <ul>
+        <li><a href="">Gmail</a></li>
+        <li><a href="" class="hinhanh" style="padding-right: 25px;">Hình ảnh</a></li>
+        <li><a href=""><i class="fa fa-th" aria-hidden="true" style="padding-right: 15px;" title="Các ứng dụng của goole"></i></a></li>
+        <li><a href="" class="x1"><button>Đăng nhập</button></a></li>
+      </ul>
     </div>
   </header>
   <main>
@@ -24,43 +27,47 @@
     <div class="g1">
       <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="" style="width: 272px; height: 92px; padding: 110px 0 20px 0;"><br>     
       <div class="gg">
-        <div class="g2">
-          <i class="fas fa-search"></i>
-          <i class="fa fa-keyboard-o" aria-hidden="true"></i>
-          <i class="fa fa-microphone" aria-hidden="true"></i>
-        </div>
+          <i class="fa fa-search" aria-hidden="true"></i>
+          <a href="" title="Công cụ nhập"><i class="fa fa-keyboard-o" aria-hidden="true"></i></a>
+          <a href="" title="Tìm kiếm bằng giọng nói"><i class="fa fa-microphone" aria-hidden="true"></i></a>
         <input type="text"><br>
       </div>
-      <button>Tìm với Google</button>
-      <button>Xem trang đầu tiên tìm được</button>
-      <p>Google có các thứ tiếng: <a href="">English</a><a href="">Français</a><a href="">中文（繁體）</a></p>
+      <div class="bt">
+        <button>Tìm với Google</button>
+        <button>Xem trang đầu tiên tìm được</button>
+      </div>
+      <div class="tt">
+        <p>Google có các thứ tiếng: <a href="">English</a><a href="">Français</a><a href="">中文（繁體）</a></p>
+      </div>
     </div>
   </main>
   <footer>
-    <div class="y">
-      <p>Việt Nam</p><hr>
-    </div>
-    <div class="x">
-      <div class="left">
-        <ul>
-          <li><a href="">Quảng cáo</a></li>
-          <li><a href="">Doanh nghiệp</a></li>
-          <li><a href="">Giới thiệu</a></li>
-          <li><a href="">Cách hoạt động của Tìm kiếm</a></li>
-        </ul>
+    <div class="container">
+      <div class="y">
+        <p style="padding-left: 27px; font-size: 15px; color: rgba(0,0,0,.54);">Việt Nam</p><hr>
       </div>
-      <div class="right">
-        <ul>
-          <li><a href="">Bảo mật</a></li>
-          <li><a href="">Điều khoản</a></li>
-          <li><a href="">Cài đặt</a></li>
-        </ul>
+      <div class="x">
+        <div class="left">
+          <ul>
+            <li><a href="">Quảng cáo</a></li>
+            <li><a href="">Doanh nghiệp</a></li>
+            <li><a href="">Giới thiệu</a></li>
+            <li><a href="">Cách hoạt động của Tìm kiếm</a></li>
+          </ul>
+        </div>
+        <div class="right">
+          <ul>
+            <li><a href="">Bảo mật</a></li>
+            <li><a href="">Điều khoản</a></li>
+            <li><a href="">Cài đặt</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </footer>
   <script>
     $(document).ready(function(){
-      $("#hinhanh").click(function(){
+      $(".hinhanh").click(function(){
         $(".anh").show();
       });
     });
