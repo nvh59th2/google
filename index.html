@@ -23,7 +23,20 @@
     </div>
   </header>
   <main>
-    <img src="img/tải xuống.jpg" alt="" style="width: 300px; height: 300px; display: none;" class="anh">
+    <div class="zz" id="zz1">
+      <ul>
+        <li><a href=""><img src="img/Capture.PNG" alt=""></a></li>
+        <li><a href=""><img src="img/Capture.PNG" alt=""></a></li>
+        <li><a href=""><img src="img/Capture.PNG" alt=""></a></li>
+        <li><a href=""><img src="img/Capture.PNG" alt=""></a></li>
+        <li><a href=""><img src="img/Capture.PNG" alt=""></a></li>
+        <li><a href=""><img src="img/Capture.PNG" alt=""></a></li>
+        <li><a href=""><img src="img/Capture.PNG" alt=""></a></li>
+        <li><a href=""><img src="img/Capture.PNG" alt=""></a></li>
+        <li><a href=""><img src="img/Capture.PNG" alt=""></a></li>
+        <li><a href=""><img src="img/Capture.PNG" alt=""></a></li>
+      </ul>
+    </div>
     <div class="g1">
       <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="" style="width: 272px; height: 92px; padding: 110px 0 20px 0;"><br>     
       <div class="gg">
@@ -67,9 +80,14 @@
   </footer>
   <script>
     $(document).ready(function(){
-      $(".hinhanh").click(function(){
-        $(".anh").show();
+      $(".fa-th").click(function(event){
+        $(".zz").show();
+        event.preventDefault();
       });
+      // $(".fa-th").click(function(event){
+      //   $(".zz").hide();
+      //   event.preventDefault();
+      // });
     });
     </script>
 </body>
